@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 
  
 
-@WebFilter()
+@WebFilter(urlPatterns = "/*")
 public class EncoderFilter implements Filter {
 
 	@Override
